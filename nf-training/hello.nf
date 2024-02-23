@@ -2,6 +2,7 @@
 
 params.greeting = 'Hello world!'
 greeting_ch = Channel.of(params.greeting)
+cheese_ch = Channel.of("Cheese")
 
 process SPLITLETTERS {
     input:
